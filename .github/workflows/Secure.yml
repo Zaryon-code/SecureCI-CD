@@ -26,5 +26,5 @@ jobs:
         projectBaseDir: app/src
         args: >
             -Dsonar.organization=zaryon-code
-            -Dsonar.projectKey=Zaryon-code Prj
+            -Dsonar.projectKey=Zaryon-code
             -Dsonar.verbose=true
