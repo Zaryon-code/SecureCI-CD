@@ -23,8 +23,8 @@ jobs:
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       with:
-        projectBaseDir: .
+        projectBaseDir: app/src
         args: >
             -Dsonar.organization=zaryon-code
-            -Dsonar.projectKey=Zaryon-code
+            -Dsonar.projectKey=SecureCI-CD
             -Dsonar.verbose=true
