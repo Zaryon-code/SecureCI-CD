@@ -25,5 +25,5 @@ jobs:
       with:
         args: >
             -Dsonar.organization=zaryon-code
-            -Dsonar.projectKey=zaryon-code
+            -Dsonar.projectKey=SecureCI-CD
             -Dsonar.verbose=true
