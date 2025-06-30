@@ -26,5 +26,5 @@ jobs:
         projectBaseDir: app/src
         args: >
             -Dsonar.organization=zaryon-code
-            -Dsonar.projectKey=SecureCI-CD
+            -Dsonar.projectKey=My project
             -Dsonar.verbose=true
